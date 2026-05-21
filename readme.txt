@@ -12,7 +12,8 @@ About:
 2. Install all the packages
  - pip install -r requirements.txt
 
-3. Extract the zip file
+3. Extract the zip file from:
+https://drive.google.com/drive/folders/1ySYoePF_2DnHwwadJ7kQ6LHjjszatWti?usp=drive_link
 
 4. Run code convert_data.py to convert compress images in npz file:
     - python3 convert_data.py fashion_mnist h w c fashion_mnist.npz 0/1
