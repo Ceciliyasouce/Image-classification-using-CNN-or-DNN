@@ -1,11 +1,11 @@
-About: 
-    - We have two python files namely
-        -convert_data.py
-        -cnn.py
+# About: 
+- We have two python files namely
+  -convert_data.py
+  -cnn.py
+- convert_data.py reads image files, corrects problems, stores data to a .npz file for faster processing.
+- cnn.py: train/test split, trains or evaluates a model on data.
 
-    - convert_data.py reads image files, corrects problems, stores data to a .npz file for faster processing.
-    - cnn.py: train/test split, trains or evaluates a model on data.
-
+# Steps to execute the code
 1. Create a virtual environment
  - python -m venv myvenv
 
